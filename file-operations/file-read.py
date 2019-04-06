@@ -9,4 +9,3 @@ txt.seek(0,0)
 print(txt.read())
 
 
-txt.close()
