@@ -2,7 +2,7 @@ def my_decorator(func):
     def display(*args, **kwargs):
         print("calling before decorator func ")
         func(*args, **kwargs)
-        return func(*args, **kwargs)
+        return func(*args, **kwargs) #Needed this https://realpython.com/primer-on-python-decorators/
         print("calling after decorator func ")
     
     return display
