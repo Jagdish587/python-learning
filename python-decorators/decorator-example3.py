@@ -17,3 +17,6 @@ def say_jagdish(*argv, **kwargs):
     return "finnaly done..!!"
 
 print(say_jagdish("Hello","I am ","from" ,"main"))
+
+print(say_jagdish) # For introspection
+print(say_jagdish.__name__) # For introspection prints name of decorator func
