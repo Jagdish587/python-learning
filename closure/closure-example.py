@@ -8,3 +8,5 @@ def outer_func(message):
 inner_func_hello = outer_func("hello")
 inner_func_hello()
 
+inner_func_hi = outer_func("hi")
+inner_func_hi()
