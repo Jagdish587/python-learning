@@ -14,3 +14,8 @@ inner_func_hi()
 
 inner_func_good = outer_func("hello")
 inner_func_good()
+
+
+inner_func_message = outer_func("message")
+inner_func_message()
+
