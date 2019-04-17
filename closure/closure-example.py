@@ -10,3 +10,7 @@ inner_func_hello()
 
 inner_func_hi = outer_func("hi")
 inner_func_hi()
+
+
+inner_func_good = outer_func("hello")
+inner_func_good()
