@@ -8,8 +8,9 @@ bool m_isRightTouch ;
 bool checksavedinstance()
 {
 		
-		ifstream fio("sample.txt", ios::app | ios::out | ios::in); 
-		int value ;
+		bool value ;
+		ifstream fio("sample.txt", ios::app ); 
+		
 		fio >> value ;
 		cout<<"from file = "<<value<<endl;	
 		
