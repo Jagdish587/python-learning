@@ -21,7 +21,7 @@ print("Hello {} you got error {:x} ".format(name, errno))
 a = 5
 b = 15
 
-result = f"sample output gives you {a + b} "
+result = f"sample output gives you {a + b} ok "
 print(result)
 
 a = 5
