@@ -1,3 +1,5 @@
+ # data once entered into the tuple cannot be changed no matter what.
+
 mytuple = (1, "Jagdish", 2, "Sai Prasad ", 3, "AJay", 2.14, 2 , 2)
 print("my tuple is ",mytuple)
 print("address of  tuple is ",id(mytuple))
