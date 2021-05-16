@@ -2,6 +2,7 @@
 # create and print list 
 mylist = [1, "Jagdish", 2, "Sai Prasad", 2, 3, "Ajay", 3.14]
 print("value of list is ", mylist)
+print("inital address of  list is ",id(mylist))
 
 #print len of list 
 print("length of list = ", len(mylist))
@@ -25,5 +26,8 @@ print(mylist)
 #print elements ny for loop 
 for val in mylist:
     print(val, end=" ")
+
+print("final address of  list is ",id(mylist))
+
 
 
