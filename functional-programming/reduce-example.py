@@ -14,8 +14,11 @@ def reduce_example():
 
     numbers = [2, 1, 2, 3, 4]
     result = reduce(my_sum, numbers)
-
     print("result = ", result)
+
+    # want to initilize with value , you can add last paramter
+    initilizeresult = reduce(my_sum, numbers, 100)
+    print("initilize result = ", initilizeresult)
 
     # using lambda
     resultlambda = reduce(lambda valueA, valueB: valueA + valueB, numbers)
